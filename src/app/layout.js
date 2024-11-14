@@ -2,7 +2,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import GoogleAnalytics from "./GoogleAnalytics";
 import Head from "next/head";
-
+import Instagramus from "./Instagramus.png"
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -22,7 +22,7 @@ export const metadata = {
     description: "This is a description for Open Graph sharing.",
     type: "website",
     url: "https://google-anal.vercel.app",
-    image: "Instagramus.png", // Ensure this URL is publicly accessible
+    image: Instagramus
   },
 };
 
