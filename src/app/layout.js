@@ -22,7 +22,7 @@ export const metadata = {
     description: "This is a description for Open Graph sharing.",
     type: "website",
     url: "https://google-anal.vercel.app",
-    image: "https://google-anal.vercel.app/Instagramus.png", // Ensure this URL is publicly accessible
+    image: "Instagramus.png", // Ensure this URL is publicly accessible
   },
 };
 
