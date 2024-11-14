@@ -31,6 +31,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <Head>
         <title>{metadata.title}</title>
+        {/* chech */}
         <meta name="description" content={metadata.description} />
 
         {/* Open Graph meta tags */}
