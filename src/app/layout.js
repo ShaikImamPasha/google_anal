@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-      <meta property="og:image" content="https://google-anal.vercel.app/favicon" />
+      <meta property="og:image" content="https://google-anal.vercel.app/Instagramus.png" />
    
       </Head>
       <body
