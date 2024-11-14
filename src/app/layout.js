@@ -21,7 +21,7 @@ export const metadata = {
   openGraph: {
     images: [
       {
-        url: "http://localhost:3000/Instagramus.png",
+        url: "https://google-anal.vercel.app/Instagramus.png",
         width: 800,
         height: 600,
       },
