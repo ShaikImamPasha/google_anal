@@ -5,6 +5,8 @@ export async function sitemap(props) {
       .then(response => response.json())
       console.log("log",resDatat);
       
+       const resDatat1=await fetch('https://jsonplaceholder.typicode.com/todos/33')
+      .then(response => response.json())
   const staticUrls = [
     {
       url: "https://www.imam.live/",
@@ -26,8 +28,11 @@ export async function sitemap(props) {
     },
   ];
 
+  const finlaData=[resDatat,resDatat1]
+  console.log("log",finlaData);
+
   // Fetch dynamic blog data
-  let dynamicUrls = [resDatat].map((res)=>{
+  let dynamicUrls = finlaData.map((res)=>{
     return {
       url: `https://www.imam.live/blog/${res.id}`,
       
