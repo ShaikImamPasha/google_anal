@@ -1,7 +1,7 @@
 
 export async function sitemap(props) {
   console.log("log1",props);
-  const resDatat=await fetch('https://jsonplaceholder.typicode.com/todos/3')
+  const resDatat=await fetch('https://jsonplaceholder.typicode.com/todos/22')
       .then(response => response.json())
       console.log("log",resDatat);
       
