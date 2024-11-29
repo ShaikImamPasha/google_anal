@@ -7,19 +7,19 @@ export async function sitemap(props) {
       
   const staticUrls = [
     {
-      url: "http://localhost:8080/",
+      url: "https://www.imam.live/",
       lastModified: new Date().toISOString(),
       changefreq: "daily",
       priority: 1.0,
     },
     {
-      url: "http://localhost:8080/about",
+      url: "https://www.imam.live/about",
       lastModified: new Date().toISOString(),
       changefreq: "monthly",
       priority: 0.8,
     },
     {
-      url: "http://localhost:8080/contact",
+      url: "https://www.imam.live/contact",
       lastModified: new Date().toISOString(),
       changefreq: "monthly",
       priority: 0.7,
@@ -29,7 +29,7 @@ export async function sitemap(props) {
   // Fetch dynamic blog data
   let dynamicUrls = [resDatat].map((res)=>{
     return {
-      url: `http://localhost:8080/blog/${res.id}`,
+      url: `https://www.imam.live/blog/${res.id}`,
       
     }
   });
