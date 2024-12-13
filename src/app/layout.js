@@ -2,6 +2,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import GoogleAnalytics from "./GoogleAnalytics";
 import Head from "next/head";
+import ReduxProvider from "./ReduxProvider";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -34,7 +35,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <GoogleAnalytics />
+        <ReduxProvider>
         {children}
+
+        </ReduxProvider>
       </body>
     </html>
   );
