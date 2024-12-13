@@ -228,10 +228,10 @@ export default function ImagesPlugin({ captionsEnabled }) {
   return null;
 }
 
-const TRANSPARENT_IMAGE =
-  "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7";
-const img = document.createElement("img");
-img.src = TRANSPARENT_IMAGE;
+// const TRANSPARENT_IMAGE =
+//   "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7";
+// const img = document?.createElement("img");
+// img.src = TRANSPARENT_IMAGE;
 
 function onDragStart(event) {
   const node = getImageNodeInSelection();

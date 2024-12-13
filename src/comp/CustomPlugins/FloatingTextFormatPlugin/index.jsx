@@ -333,7 +333,7 @@ function useFloatingTextFormatToolbar(editor, anchorElem) {
 }
 
 export default function FloatingTextFormatToolbarPlugin({
-  anchorElem = document.body,
+  anchorElem = document?.body,
 }) {
   const [editor] = useLexicalComposerContext();
   return useFloatingTextFormatToolbar(editor, anchorElem);
