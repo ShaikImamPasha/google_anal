@@ -55,6 +55,7 @@ export const metadata = {
 export default function Home() {
   return <>
    <Script
+                  id="structured-data-itemlist-main" // Unique id for the script
         key="structured-data"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
