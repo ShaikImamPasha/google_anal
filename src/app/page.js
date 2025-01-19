@@ -1,4 +1,3 @@
-'use client'
 import Image from "next/image";
 import Link from "next/link";
 import Script from "next/script";
@@ -60,7 +59,7 @@ export default function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
- <button
+ {/* <button
   onClick={() => {
     gtag('event', 'button_click', {
       event_category: 'engagement',
@@ -70,7 +69,7 @@ export default function Home() {
   }}
 >
   Click here for google ananlysis
-</button> 
+</button>  */}
 <Link href="/customEditor">
 clk to go edit
 </Link>
