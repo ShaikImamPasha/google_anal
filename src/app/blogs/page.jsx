@@ -1,26 +1,18 @@
 import Script from "next/script";
 //import mockBlogData from "../../components/blogs/mockBlogData";
 
-const structuredData = {
+const structuredData={
   "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "imam main page",
-  "alternateName": "imam main page",
-  "url": "https://www.nextbill.io/",
-  "logo": "https://www.nextbill.io/nextbill.png",
-  "description": "Take the hassle out of billing with NextBill, your go-to invoicing platform. With features like automated reminders and customizable templates, we simplify your finance management so you can focus on what you're great at.",
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "telephone": "9958553533",
-    "contactType": "customer service",
-    "areaServed": "IN",
-    "availableLanguage": ["en","Hindi"]
+  "@type": "SoftwareApplication",
+  "name": "nextbill",
+  "operatingSystem": "WEB",
+  "applicationCategory": "FinanceApplication",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": 4.6,
+    "ratingCount": 2839
   },
-  "sameAs": [
-    "https://www.linkedin.com/company/nextbill/",
-    "https://www.instagram.com/nextbill_/",
-    "https://x.com/NextBill_"
-  ]
+  "description": "Create free Invoice with NextBill’s comprehensive Invoicing tool NextBill's free invoice generator makes invoicing effortless. Just input your billing details, customize your invoice, and instantly create professional invoices you can print, download, or save as PDFs."
 }
 const currentUrl = `https://www.nextbill.io`;
 
