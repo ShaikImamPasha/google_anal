@@ -56,6 +56,7 @@ export default function BlogsMainPage() {
   return (
     <div className="w-full  h-auto bg-[#f9fbfc] ">
        <Script
+               id="structured-data-itemlist" // Unique id for the script
         key="structured-data"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
