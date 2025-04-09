@@ -33,9 +33,9 @@ export const metadata = {
     description: "met dessly in one place.",
     images: [
       {
-        url: "https://www.nextbill.io/nextbill.png",
-        width: 800,
-        height: 600,
+        url: "https://www.nextbill.io/Nextbill_final_logo.png",
+        width: 1200,
+        height: 630,
       },
     ],
   },
@@ -44,7 +44,7 @@ export const metadata = {
     title: "eta des",
     description:
       "met des",
-    images: "https://www.nextbill.io/nextbill.png",
+    images: "https://www.nextbill.io/Nextbill_final_logo.png",
   },
   alternates: {
     canonical: `${currentUrl}`,
@@ -74,6 +74,9 @@ export default function Home() {
 <Link href="/customEditor">
 clk to go edit
 </Link>
+<p>
+  logo check
+</p>
 </>
   
   
