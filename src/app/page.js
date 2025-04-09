@@ -22,7 +22,6 @@ const structuredData = {
     "https://x.com/NextBill_"
   ]
 }
-const currentUrl = `https://www.nextbill.io`;
 
 
 export default function Home() {
