@@ -43,9 +43,7 @@ export const metadata = {
       },
     ],
   },
-  alternates: {
-    canonical: `${currentUrl}`,
-  }
+
   
 };
 
