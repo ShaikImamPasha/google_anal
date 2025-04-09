@@ -51,7 +51,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
           <head>
-        <link rel="icon" href="/Nextbill_final_logo_optimized.jpg" title="nextbill icon"/>
+        <link rel="icon" href="/Nextbill_final_logo_tab.png" title="nextbill icon"/>
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <GoogleAnalytics />
