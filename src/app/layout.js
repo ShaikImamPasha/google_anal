@@ -15,19 +15,38 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-// Updated metadata with longer description
 export const metadata = {
-  title: "Create Next App",
-  description: "Experience the best of modern web development with our new Next.js app. Featuring optimized performance, responsive design, and an intuitive user experience, this app is crafted to deliver the highest quality in web development.",
+  title: "meta title",
+  description: "meta des",
+  keywords: "nextbill,recurring invoice,invoice generation,invoicing process,creating invoice,generate e invoice,create the invoice,generate bill,invoice and payment,create billing invoice,invoice management system,invoice maker,online invoice generator,create invoice online,online bill generator",
   openGraph: {
+    title: "meta title",
+    description: "met dessly in one place.",
     images: [
       {
-        url: "https://google-anal.vercel.app/Instagramus.png",
-        width: 800,
-        height: 600,
+        url: "https://www.imam.live/Nextbill_final_logo_optimized.png",
+        width: 1400,
+        height: 1400,
       },
     ],
   },
+  twitter: {
+    card: "eta title",
+    title: "eta des",
+    description:
+      "met des",
+    images: [
+      {
+        url: "https://www.imam.live/Nextbill_final_logo_optimized.png",
+        width: 1400,
+        height: 1400,
+      },
+    ],
+  },
+  alternates: {
+    canonical: `${currentUrl}`,
+  }
+  
 };
 
 export default function RootLayout({ children }) {
