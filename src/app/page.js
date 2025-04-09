@@ -34,8 +34,8 @@ export const metadata = {
     images: [
       {
         url: "https://www.nextbill.io/Nextbill_final_logo.png",
-        width: 400,
-        height: 600,
+        width: 200,
+        height: 200,
       },
     ],
   },
@@ -44,7 +44,13 @@ export const metadata = {
     title: "eta des",
     description:
       "met des",
-    images: "https://www.nextbill.io/Nextbill_final_logo.png",
+    images: [
+      {
+        url: "https://www.nextbill.io/Nextbill_final_logo.png",
+        width: 200,
+        height: 200,
+      },
+    ],
   },
   alternates: {
     canonical: `${currentUrl}`,
