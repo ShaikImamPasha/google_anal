@@ -24,7 +24,7 @@ export const metadata = {
     description: "met dessly in one place.",
     images: [
       {
-        url: "https://www.imam.live/Nextbill_final_logo_optimized.png",
+        url: "https://www.imam.live/Nextbill_final_logo_optimized.jpg",
         width: 100,
         height: 100,
       },
@@ -37,7 +37,7 @@ export const metadata = {
       "met des",
     images: [
       {
-        url: "https://www.imam.live/Nextbill_final_logo_optimized.png",
+        url: "https://www.imam.live/Nextbill_final_logo_optimized.jpg",
         width: 100,
         height: 100,
       },
