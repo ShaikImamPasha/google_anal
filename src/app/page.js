@@ -25,7 +25,7 @@ const structuredData = {
 const currentUrl = `https://www.nextbill.io`;
 
 export const metadata = {
-  title: "meta title",
+  title: "meta title tets",
   description: "meta des",
   keywords: "nextbill,recurring invoice,invoice generation,invoicing process,creating invoice,generate e invoice,create the invoice,generate bill,invoice and payment,create billing invoice,invoice management system,invoice maker,online invoice generator,create invoice online,online bill generator",
   openGraph: {
@@ -79,6 +79,7 @@ export default function Home() {
 </button>  */}
 <Link href="/customEditor">
 clk to go edit
+new chek  again
 </Link>
 <p>
   logo check

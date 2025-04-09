@@ -15,37 +15,7 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-export const metadata = {
-  title: "meta title",
-  description: "meta des",
-  keywords: "nextbill,recurring invoice,invoice generation,invoicing process,creating invoice,generate e invoice,create the invoice,generate bill,invoice and payment,create billing invoice,invoice management system,invoice maker,online invoice generator,create invoice online,online bill generator",
-  openGraph: {
-    title: "meta title",
-    description: "met dessly in one place.",
-    images: [
-      {
-        url: "https://www.imam.live/Nextbill_final_logo_optimized.png",
-        width: 800,
-        height: 600,
-      },
-    ],
-  },
-  twitter: {
-    card: "eta title",
-    title: "eta des",
-    description:
-      "met des",
-    images: [
-      {
-        url: "https://www.imam.live/Nextbill_final_logo_optimized.png",
-        width: 800,
-        height: 600,
-      },
-    ],
-  },
 
-  
-};
 
 export default function RootLayout({ children }) {
   return (
