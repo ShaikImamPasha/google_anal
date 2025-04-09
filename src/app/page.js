@@ -34,8 +34,8 @@ export const metadata = {
     images: [
       {
         url: "https://www.imam.live/Nextbill_final_logo_optimized.png",
-        width: 200,
-        height: 200,
+        width: 1200,
+        height: 1200,
       },
     ],
   },
@@ -47,8 +47,8 @@ export const metadata = {
     images: [
       {
         url: "https://www.imam.live/Nextbill_final_logo_optimized.png",
-        width: 200,
-        height: 200,
+        width: 1200,
+        height: 1200,
       },
     ],
   },
