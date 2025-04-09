@@ -34,7 +34,7 @@ export const metadata = {
     images: [
       {
         url: "https://www.nextbill.io/Nextbill_final_logo.png",
-        width: 700,
+        width: 400,
         height: 600,
       },
     ],
