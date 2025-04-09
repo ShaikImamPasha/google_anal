@@ -33,7 +33,7 @@ export const metadata = {
     description: "met dessly in one place.",
     images: [
       {
-        url: "https://www.nextbill.io/Nextbill_final_logo.png",
+        url: "https://www.imam.live/Nextbill_final_logo_optimized.png",
         width: 200,
         height: 200,
       },
@@ -46,7 +46,7 @@ export const metadata = {
       "met des",
     images: [
       {
-        url: "https://www.nextbill.io/Nextbill_final_logo.png",
+        url: "https://www.imam.live/Nextbill_final_logo_optimized.png",
         width: 200,
         height: 200,
       },
