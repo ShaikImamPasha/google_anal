@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Script from "next/script";
+import TextTsx from "./TextTsx";
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Organization",
@@ -50,6 +51,7 @@ new chek  again
 <p>
   logo check
 </p>
+<TextTsx></TextTsx>
 </>
   
   
