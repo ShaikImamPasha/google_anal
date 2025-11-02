@@ -27,6 +27,10 @@ const structuredData = {
 
 export default function Home() {
   return <>
+  <a href="https://google-anal.vercel.app/invoice/create">
+  Open Invoice in App
+</a>
+
    <Script
                   id="structured-data-itemlist-main" // Unique id for the script
         key="structured-data"
