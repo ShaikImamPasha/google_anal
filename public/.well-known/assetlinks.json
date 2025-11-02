@@ -1,0 +1,13 @@
+[
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.invoice_react_native",
+        "sha256_cert_fingerprints": [
+          "54:21:97:17:88:F5:D5:80:64:48:AB:34:97:64:9C:7B:B8:93:14:F9:55:23:95:B0:25:5D:BD:8E:BA:36:36:74"
+        ]
+      }
+    }
+  ]
+  
